@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+main{
+    background-color: brown;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h1#ZERO{
+    color: red;
+}
+
+.BAS{
+    color: rgb(0, 0, 0);
+}
+
+.DES{
+    background-color: blue;
+}

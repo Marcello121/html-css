@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    color: rgb(88, 88, 107);
+    height: 200px;
+    width: 200px;
+    background-color: rgb(33, 25, 41);
+    border: 2px solid black
+    
+   
+    
+}
+
+div:hover{
+    color: rgb(0, 0, 0); /* se colocar apenas a cor, só muda o texto da div e não a cor do bloco */
+
+    background-color: yellow;
+}
