@@ -4,13 +4,20 @@ body{
     background-color: black;
     background-image: url(imagens/wallpaper002.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
+
+    /* Shorthand - background
+    color > image > position > repeat > {size[existe mas não funciona]} attachment
+    
+    
+    background: black url() center center no-repeat fixed
+    */
 }
 
 main{
     background-color: white;
-    border: 10px;
+    border-radius: 10px;
     border: 1px solid black;
     text-align: center;
     margin: auto;
