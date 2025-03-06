@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'PASSION';
+    src: url(fonts/Passion_One/PassionOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SRI';
+    src: url(fonts/Sriracha/Sriracha-Regular.ttf) format('truetype')
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+:root{
+    --cor1-principal: #000000;
+    
+    --fonte-principal: 'PASSION', 'cursive';
+    --fonte-secundaria: 'SRI', 'Verdana';
+
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247, 247, 247);
+
+    overflow-x: hidden;
+}
+
+main{
+    min-width: 320px;
+    max-width: 800px;
+
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+header > h1{
+    font-family: var(--fonte-principal);
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    margin-bottom: 10px;
+    font-weight: 400;  
+    
+    font-family: var(--fonte-principal)
+}
+
+header > p{
+    color: white;
+    text-align: center;
+
+    font-family: var(--fonte-principal)
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.p-header{
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 5vw;
+    margin: 0;
+}
+
+p{
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: 15px;
+
+    font-size: 3.8vw;
+    font-family: var(--fonte-secundaria);
+
+    line-height: 1.9em;
+
+    
+    
+}
+
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+
+    width: 100vw;
+    
+    
+    color: white;
+    padding: 15px;
+    
+}
+
+#img1 p{
+    background-color: #0000006c;
+    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    padding: 15px;
+
+}
+
+#img2 p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 15px;
+
+    height: fit-content;
+    width: fit-content;
+
+    text-shadow: 0.5px 0.5px 1px black;
+    
+}
+
+footer{
+    
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+}
+
+#ft{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#last{
+    margin-bottom: 80px;
+}
