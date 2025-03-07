@@ -99,6 +99,8 @@ p{
     
 }
 
+
+
 #img1{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
@@ -106,6 +108,13 @@ p{
     background-position: right center;
 
     width: 100vw;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.603);
+
+    /*box-shadow: inset 6px(espalhamento vertical) 6px(espalhamento horizontal) 13px(nível de blur) rgb(0, 0, 0)(cor da sombra);*/
     
     
     color: white;
@@ -118,6 +127,7 @@ p{
     padding: 15px;
     height: fit-content;
     width: fit-content;
+    
 
     text-shadow: 0.5px 0.5px 1px black;
 }
@@ -130,6 +140,8 @@ p{
     background-repeat: no-repeat;
     width: 100vw;
     padding: 15px;
+
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.541);
 
 }
 
