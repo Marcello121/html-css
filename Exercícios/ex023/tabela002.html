@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T A B E L A GRANDE</title>
+    <style>
+        th.bel{
+            background-color: rgba(128, 128, 128, 0.589);
+            text-align: center;
+        }
+
+        th.bel, td{
+            border: 1px solid black;
+            
+        }
+
+        td{
+            border-collapse: collapse;
+            height: 50px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .bel1{
+            height: 50px;
+            background-color: gray;
+            border: 1px solid black;
+        }
+
+        body{
+            text-align: center;
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        table{
+            position: absolute;
+            
+
+            top: 30%;
+            left: 50%;
+
+            transform: translate(-50%, -30%);
+        }
+
+        h2{
+            font-size: small;
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1>Batalha de Stalingrado</h1>
+    <h2>Não fiz de fato a tabela grande, mas apliquei a anatomia dela na tabela pequena, o que dá no mesmo para aprender</h2>
+    <table>
+        <thead>
+            <tr>
+                <th class="bel">Beligerantes</th>
+                <th class="bel">Baixas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="nazi.svg" width="20" height="13"> Alemanha Nazista</td>
+                <td class="numero">647.300 – 868.374</td>
+            </tr>
+            <tr>
+                <td><img src="sov.png" width="20" height="13">
+                        União Soviética</td>
+                <td class="numero">1.129.619</td>
+                
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="bel1"><strong>Total de baixas</strong></th>
+                <td class="numero"><strong>1.997.993</strong></td>
+            </tr>
+            
+        </tfoot>
+    </table>
+    
+</body>
+</html>
