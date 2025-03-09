@@ -24,7 +24,7 @@
 
         .bel1{
             height: 50px;
-            background-color: gray;
+            background-color: rgb(161, 161, 161);
             border: 1px solid black;
         }
 
@@ -47,19 +47,30 @@
             font-size: small;
         }
 
+        caption{
+            background-color: rgb(170, 170, 170);
+            font-size: 25px;
+            font-weight: bold;
+            font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
         
 
         
     </style>
 </head>
 <body>
-    <h1>Batalha de Stalingrado</h1>
+    <h1>Batalha da Frente Oriental</h1>
     <h2>Não fiz de fato a tabela grande, mas apliquei a anatomia dela na tabela pequena, o que dá no mesmo para aprender</h2>
     <table>
         <thead>
             <tr>
-                <th class="bel">Beligerantes</th>
-                <th class="bel">Baixas</th>
+                <caption>Batalha de Stalingrado</caption>
+                <th scope="col" class="bel">Beligerantes</th>
+                <th scope="col" class="bel">Baixas</th>
             </tr>
         </thead>
         <tbody>
@@ -77,7 +88,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th class="bel1"><strong>Total de baixas</strong></th>
+                <th scope="row" class="bel1"><strong>Total de baixas</strong></th>
                 <td class="numero"><strong>1.997.993</strong></td>
             </tr>
             
