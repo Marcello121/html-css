@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background: black url(imagens/fundo-madeira.jpg) center center no-repeat;
+    background: rgb(0, 0, 0) url(imagens/fundo-madeira.jpg) center center no-repeat;
     margin: 0 auto;
 
     min-width: 320px;
@@ -25,13 +25,55 @@ img.iphone{
 
 
 iframe{
-    height: 470px;
-    width: 267px;
+    height: 481px;
+    width: 270px;
 
     position: absolute;
 
-    top: 50.7%;
+    top: 50.9%;
     left: 50%;
 
     transform: translate(-50%, -50%);
+}
+
+div#container{
+    background-color: blue;
+    
+    height: 10vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+div.botoes{
+    margin-left: 1018px;
+    height: 300px;
+    
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+    
+}
+
+a > img{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+
+    border-radius: 40px;
+    
+    
+}
+
+a > img:hover{
+    
+    transform: translateX(-12px);
+
+    transition: transform 0.7s cubic-bezier(0.25, 0.8, 0.45, 1);
+    
+
+    
+    
 }
