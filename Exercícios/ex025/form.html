@@ -17,14 +17,19 @@
 <body>
     <h1>Primeiro formulário</h1>
 
-    <form action="cadastro.php">
-        <p>Nome:</p>
-        <label for="inome"><input type="text" name="Nome" id="inome"></label>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <label for="inome">
+            <p>Nome:</p>
+        </label>
+        <input type="text" name="Nome" id="inome" required maxlength="15" minlength="5" autocomplete="username">
 
-        <p>Senha</p>
-        <label for="isenha"><input type="password" name="Senha" id="isenha"></label> <br>
+        <label for="isenha">
+            <p>Senha</p>
+        </label>
+        <input type="password" name="Senha" id="isenha" required maxlength="22" minlength="5" autocomplete="current-password"> <br>
 
         <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar TUDO">
 
 
     </form>
