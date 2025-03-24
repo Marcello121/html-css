@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 04</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ex form</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor"> 
+
+
+        
+        </p>
+
+        <p>
+            <label for="ifoto"></label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <label for="irage">Barra barra inversa:</label>
+            <input type="range" name="range" id="irange" max="10" min="1">
+        </p>
+
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+
+
+
+
+
+    </form>
+</body>
+</html>

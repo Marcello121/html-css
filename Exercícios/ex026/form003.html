@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 03</title>
+</head>
+<body>
+    <h1>Ex de form</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <label for="ima">Masculino</label>
+                <input type="radio" name="sexo" id="ima">
+                <label for="ife">Feminino</label>
+                <input type="radio" name="sexo" id="ife">
+
+                <!-- Usando type="RADIO" o name tem que ser igual mas o id tem que ser diferente -->
+                
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <p>
+                <input type="checkbox" name="fut" id="ifut"> 
+                <label for="ifut">Futebol</label> <br>
+                
+                <input type="checkbox" name="bas" id="ibas">
+                <label for="ibas">Basquete</label> <br> 
+
+                <input type="checkbox" name="vol" id="ivol"> 
+                <label for="ivol">Vôlei</label> <br>
+                
+                <input type="checkbox" name="box" id="ibox"> 
+                <label for="ibox">Boxe</label> <br>
+                
+                
+            </p>
+
+            
+        </fieldset>
+
+        <p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar tudo que não funciona">
+            </p>
+        </p>
+
+    </form>
+        
+    
+</body>
+</html>
