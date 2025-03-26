@@ -43,6 +43,8 @@
             border: 3px solid black;
             
         }
+
+        
     </style>
 </head>
 <body>
@@ -50,15 +52,15 @@
     <form action="cadastro.php" method="post" autocomplete="on">
 
         <fieldset>
-            <p>
+            <p class="sed">
                 <label for="itex">Name: </label>
-                <input type="text" name="tex" id="itex" maxlength="15" minlength="3">
+                <input type="text" name="tex" id="itex" maxlength="15" minlength="3" required>
             
             
             </p>
             <p>
                 <label for="icod1">Persönlicher Verifizierungscode: </label>
-                <input type="password" maxlength="10" minlength="7">
+                <input type="password" maxlength="10" minlength="7" required>
             </p>
             <p>
                 <label for="iunit">Einsatz-Einheit: </label>
@@ -83,7 +85,7 @@
             
             <p>
                 <label for="icod2">Einzigartiger Verifizierungscode: </label>
-                <input type="password" maxlength="10" minlength="7">
+                <input type="password" maxlength="10" minlength="7" required>
             </p>
         </fieldset>
 
