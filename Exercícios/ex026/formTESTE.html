@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F O R M</title>
+    <style>
+
+        @font-face {
+            font-family: "DIN";
+            src: url(DINMittelschriftStd.otf) format("opentype");
+        }
+        body{
+            background: black url(personal-recreation-of-the-flag-of-the-eusan-nation-w-bonus-v0-yh69tgvxj2na1.png) no-repeat center/cover fixed;
+
+            font-family: "DIN", Arial, Helvetica, sans-serif;
+            
+            text-align: center;
+
+            
+            
+        }
+
+        fieldset{
+            background-color: rgba(236, 255, 255, 0.363);
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        h1{
+            background-color: rgba(236, 255, 255, 0.363);
+            border-radius: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #f1a919fb;
+            height: 80px;
+            width: 120px;
+            font-size: 20px;
+            font-weight: 600;
+
+            border-radius: 10px;
+            border: 3px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>EUSAN STAT</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <fieldset>
+            <p>
+                <label for="itex">Name: </label>
+                <input type="text" name="tex" id="itex" maxlength="15" minlength="3">
+            
+            
+            </p>
+            <p>
+                <label for="icod1">Persönlicher Verifizierungscode: </label>
+                <input type="password" maxlength="10" minlength="7">
+            </p>
+            <p>
+                <label for="iunit">Einsatz-Einheit: </label>
+                <select name="unit" id="iunit">
+                    <option value="UN-00">UN-00</option>
+                    <option value="UN-01">UN-01</option>
+                    <option value="UN-02">UN-02</option>
+                    <option value="UN-03">UN-03</option>
+                </select>
+            </p>
+            <p>
+                <label for="icarg">Position: </label>
+                <select name="carg" id="icarg">
+                    <option value="Soldado">Soldat</option>
+                    <option value="Engenheiro">Ingenieur</option>
+                    <option value="Médico">Arzt</option>
+                    <option value="Operador de rádio">Funkoperator</option>
+                    <option value="####8">####8**</option>
+                </select>
+            </p>
+            
+            
+            <p>
+                <label for="icod2">Einzigartiger Verifizierungscode: </label>
+                <input type="password" maxlength="10" minlength="7">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Einreichen">
+        </p>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

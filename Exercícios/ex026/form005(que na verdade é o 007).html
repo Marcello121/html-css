@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Mais um coisa de forms</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post"> <!-- Se for usar <textarea> tem ou usar algo que envolva upload de fotos, tem que usar o method="POST" pq o GET limita o envio de coisas até 3000 kbps-->
         <p>
             <label for="iest">Selecione um Estado: </label>
             <select name="est" id="iest">
@@ -33,7 +33,7 @@
         </p>
 
         <p>
-            <label for="iprof">Profissão: </label>
+            <label for="iprof">Local: </label>
             <input type="text" name="prof" id="iprof" list="prof8">
             <datalist id="prof8">
                 <option >Paris</option>
@@ -43,7 +43,16 @@
                 <option >São Paulo</option>
 
 
-            </datalist>
+            </datalist> 
+
+        
+        </p>
+
+        <p>
+            
+            <label for="testa">Mensagem: </label> <br>
+            <!-- O COLS expande a área horizontalmente e o ROWS verticalmente-->
+            <textarea name="test" id="testa" cols="25" rows="10" ></textarea>
         </p>
 
 
