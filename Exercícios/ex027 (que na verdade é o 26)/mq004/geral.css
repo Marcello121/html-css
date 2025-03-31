@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Para as outras midias */
+
+/* Typical Device Breakpoints 
+
+Pequenas telas: 360px
+Celulares: 360px - 640px
+Tablet: 641px - 1024px
+Notebook: 1025px - 1440px 
+Desktop: 1441px - 1920 px
+Grandes telas: 1920 px - 4k
+
+*/
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    
+}
+
+@media screen and (min-width: 1920px) and (max-width: 4000px) {
+    
+}
