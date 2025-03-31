@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+/* config geral */
+
+@media all{
+    @font-face {
+        font-family: 'VCR';
+        src: url(VCR_OSD_MONO_1.001.ttf);
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    html, body{
+        height: 100vh;
+        width: 100vw;
+    
+        font-family: 'VCR', Arial, Helvetica, sans-serif;
+    
+        
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    
+    body{
+        background-color: #0606F2;
+    }
+    
+    h1{
+        color: whitesmoke;
+    
+        text-shadow: 5px 3px #000000;
+        text-align: center;
+        padding: 30px;
+    }
+
+}
+
+/* modo portrait */
+
+@media screen and (orientation: portrait) {
+
+    body{
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: center bottom;
+    }
+    
+    
+}
+
+
+/* modo landscape */
+
+@media screen and (orientation: landscape) {
+
+    body{
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: bottom left;
+    }
+
+    
+}
+    

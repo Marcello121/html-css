@@ -1,3 +1,11 @@
 @charset "UTF-8";
 
-/* config deitado, landsacpe /*
+/* config deitado, landsacpe */
+
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: bottom left;
+}
+
+
+
