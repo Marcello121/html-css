@@ -32,6 +32,7 @@ header h1{
     color: black;
     text-align: center;
     padding: 30px;
+    font-size: 40px;
 }
 
 li{
@@ -45,8 +46,8 @@ main{
     
     
     border-radius: 15px;
-    width: 75vw;
-    height: 880px;
+    width: 57vw;
+    height: 30vw;
     margin: auto;
     
 }
