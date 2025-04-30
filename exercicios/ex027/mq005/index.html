@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos/geral.css">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="estilos/mobile.css" media="all">
+    <link rel="stylesheet" href="estilos/geral.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
-            <ul>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="menu">
+            <ul id="ul">
                 <li><a href="#">Opt 1</a></li>
                 <li><a href="#">Opt 2</a></li>
                 <li><a href="#">Opt 3</a></li>
@@ -22,12 +28,14 @@
     <main>
         <article>
             <h2>Testando Media Queries</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.</p> 
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.Lorem ipsum dolor, sit <p>amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit </p><p>neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque! Rerum ullam accusamus suscipit neque eligendi! Cupiditate quod sunt laboriosam sed distinctio, corrupti quidem facere fugiat praesentium iusto corporis animi.</p> 
             
         </article>
 
     </main>
     <footer> &copy;  </footer>
+
+    <script src="js1.js"></script>
     
 </body>
 </html>

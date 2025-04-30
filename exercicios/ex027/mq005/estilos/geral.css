@@ -7,85 +7,126 @@
 
 /* Vou considerar que esse é o mobile first e depois é só fazer outro arquivo CSS com as configs gerais, qualquer coisa é só consultar o outro exercício que fiz, o MQ004 */
 
-*{
-    padding: 0;
-    margin: 0;
-}
 
-body, html{
-    height: 100vh;
-    width: auto;
 
-    font-family: 'VCR', 'Courier New', Courier, monospace;
-}
+/* Para as outras midias */
 
-body{
-    background-color: rgba(219, 219, 219, 0.836);
-}
+/* Typical Device Breakpoints 
 
-header{
-    background-color: grey;
-    margin-bottom: 15px;
-}
+Pequenas telas: 360px
+Celulares: 360px - 640px
 
-header h1{
-    color: black;
-    text-align: center;
-    padding: 30px;
-    font-size: 40px;
-}
 
-li{
-    list-style: none;
-}
+Tablet: 641px - 1024px
+Notebook: 1025px - 1440px 
+Desktop: 1441px - 1920 px
+Grandes telas: 1920 px - 4k
 
-main{
-    display: block;
-    background-color: white;
-    padding: 25px;
+*/
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    /* TABLET */
+    main{
+        height: 100vh;
+    }
+
+    ul{
+        display: flex;
+    }
     
-    
-    border-radius: 15px;
-    width: 57vw;
-    height: 30vw;
-    margin: auto;
+    li{
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
     
 }
 
-header li{
-    display: block
-}
-ul{
-    display: flex;
-    padding: 0px 10px 0px 0px
-}
-li{
-    background-color: darkblue;
-    padding: 15px;
-    margin-right: 15px;
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* NOTEBOOK/LAPTOP */
+    main{
+        height: 65vh
+    }
+
+    ul{
+        display: flex;
+    }
+    
+    li{
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
     
     
-}
 
-main h2{
-    padding: 25px;
-    text-align: center;
 
-}
 
-a{
-    text-decoration: none;
-    color: white;
-}
 
-p{
-    line-height: 1.8em;
-    padding: 10px;
     
-    text-align: justify;
 }
 
-footer{
-    padding: 15px;
-    text-align: center;
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    /* DESKTOP PC */
+    main{
+        width: 65vw;
+        height: 68vh;
+        
+    }
+
+    ul{
+        display: flex;
+    }
+    
+    li{
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+    
+
+
+
+
+}
+
+@media screen and (min-width: 1921px) {
+    /* TV/ TELAS GRANDES */
+    main{
+        width: 35vw;
+        height: 80vh;
+        
+    }
+
+    ul{
+        display: flex;
+    }
+    
+    li{
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+    
+
+
+
+}
+
+@media print{
+    /* IMPRESSÃO (quase esqueci) */
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url(imagens/back-print.jpg);
+        text-shadow: none;
+        
+    }
+
+    main{
+        border: 1px solid black;
+    }
+
+    main h1{
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid black;
+    }
+
+   
+
 }
