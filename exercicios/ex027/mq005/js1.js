@@ -10,3 +10,13 @@ function clickMenu(){
     }
 
 }
+
+function mudouTamanho(){
+    if (window.innerWidth >= 1025){
+        menu.style.display = 'block'
+        
+        
+    } else {
+        menu.style.display = 'none'
+    }
+}

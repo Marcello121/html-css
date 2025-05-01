@@ -44,16 +44,25 @@ Grandes telas: 1920 px - 4k
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     /* NOTEBOOK/LAPTOP */
     main{
-        height: 65vh
+        height: 70vh
     }
 
-    ul{
-        display: flex;
-    }
     
+
+    span#burguer{
+        display: none;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        
+    }
+
     li{
-        margin-right: 15px;
-        margin-bottom: 0px;
+        padding: 15px;
+        margin-top: 15px;
+        text-align: center;
+        margin: auto;
     }
     
     
@@ -72,15 +81,24 @@ Grandes telas: 1920 px - 4k
         
     }
 
-    ul{
-        display: flex;
-    }
     
+    
+    span#burguer{
+        display: none;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+
     li{
-        margin-right: 15px;
-        margin-bottom: 0px;
+        
+        padding: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
+        margin: auto;
     }
-    
 
 
 
@@ -95,13 +113,22 @@ Grandes telas: 1920 px - 4k
         
     }
 
-    ul{
-        display: flex;
-    }
     
+
+    span#burguer{
+        display: none;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+
     li{
-        margin-right: 15px;
-        margin-bottom: 0px;
+        display: inline-block;
+        padding: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
     }
     
 
