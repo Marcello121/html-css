@@ -5,24 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="geral.css" media="all">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=key_off" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=key" />
+
+    
 </head>
 <body>
     <main>
-        <img src="imagens/pexels-sakuratosoju-30389536.jpg" alt="">
-        <h1>Login</h1>
-        <p id="p1">Seja bem vindo</p>
-        <div>
+        <div id="background"></div>
+        
+        <div id="secLogin">
+            <h1>Login</h1>
+            <p id="p1">Seja bem vindo</p>
             <label for="login"></label>
-            <p>Login: <input id="login" type="text" required></p>
+            
+            <p><span class="material-symbols-outlined">
+                account_circle
+                </span> <input id="login" type="text" required></p>
             
             <label for="senha"></label>
-            <p>Senha: <input id="senha" type="password" required></p>
+            <p>Senha: <input id="senha" type="password" required minlength="8"></p>
 
             <label for="entrar"></label>
-            <input type="submit" id="entrar" value="Entrar"> <br>
+            <input type="submit" id="entrar" value="Entrar"> 
 
             <label for="esqueci"></label>
             <input type="submit" value="Esqueci a senha" id="esqueci">
+
+            
+            
+            
         </div>
 
     </main>

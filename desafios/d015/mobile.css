@@ -3,14 +3,17 @@
 
 html, body{
     
+    
     padding: 0;
 
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    place-items: center;
+    
     background-color: purple;
+
+    height: 100vh;
     
     
     
@@ -20,28 +23,26 @@ body{
 
 main{
     
+    
     margin: auto;
-    place-items: center;
+    margin-bottom: 50px;
+    
     background-color: whitesmoke;
     border-radius: 15px;
-    width: 350px;
+    width: 250px;
+    height: 500px;
     padding-bottom: 15px;
-    
-    
-    height: 680px;
-
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.589);
-    
 
-    
+    position: relative;
     
     
 
 }
 
 img{
-    height: 300px;
-    width: 350px;
+    height: 350px;
+    width: 400px;
 
     border-radius: 15px 15px 0px 0px;
 
@@ -51,22 +52,27 @@ input{
     margin: 5px;
 }
 
+h1{
+    margin: 0px;
+    padding-top: 10px;
+}
+
 p#p1{
-    text-align: justify;
+    text-align: center;
     background-color: whitesmoke;
     color: black;
 }
 
 p{
-    background-color: purple;
-    color: whitesmoke;
+    
+    
 }
 
 
 
 input#entrar, input#esqueci{
     padding: 15px;
-    width: 300px;
+    width: 250px;
     
     border-radius: 10px;
     font-size: 17px;
@@ -77,8 +83,9 @@ input#entrar, input#esqueci{
 }
 
 input#entrar{
-    background-color: rgb(20, 207, 145);
+    background-color: #801180b7;
     border-style: none;
+    
 }
 
 input#esqueci{
@@ -86,13 +93,71 @@ input#esqueci{
     border-color: rgb(11, 117, 82);
 }
 
+input#entrar:hover{
+    background-color: rgb(0, 0, 255);
+    color: white;
+
+    cursor: pointer;
+}
+
+input#esqueci:hover{
+    background-color: rgb(0, 0, 255);;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+
 input#login, input#senha{
     width: 250px;
     height: 45px;
     
     background-color: rgba(20, 185, 130, 0.582);
-    border-radius: 10px;
-    border-color: purple;
+    border-radius: 15px;
+    border-color: blue;
 
     
+}
+
+span{
+    padding: 15px;
+    padding-top: 20px;
+
+    background-color: purple;
+    color: white;
+}
+
+div#secLogin{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+
+    text-align: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+p{
+    margin: 0px;
+}
+
+
+#background{
+    /* Acho que usando background-image ao invés de uma img em HTML, vai permitir maior qualidade na imagem (considerando que é uma imagem grande) (não posso esquecer que uma imagem pesada é um problema para o carregamento do site também.) */
+
+    background-image: url(imagens/pexels-sakuratosoju-30389536.jpg);
+    width: 250px;
+    height: 200px;
+
+    background-position: center left;
+
+    border-radius: 10px 10px 0px 0px;
 }
