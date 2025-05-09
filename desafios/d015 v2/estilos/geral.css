@@ -15,7 +15,49 @@ Grandes telas: 1920 px - 4k
 @media screen and (min-width: 641px) and (max-width: 1024px) {
     /* TABLET */
 
-    
+
+    body{
+        background-image: linear-gradient(to bottom,  #FFE4C4, #e5b680);
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+
+        width: 900px;
+        height: 350px;
+    }
+
+    div#img{
+        order: 2;
+        width: 450px;
+        height: 350px;
+        border-radius: 0px 10px 10px 0px;
+        
+    }
+
+    div#secLogin{
+        order: 1;
+        width: 653px;
+        height: 350px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    input#entrar, input#esqueci, input#login, input#senha{
+        width: 450px;
+        
+    }
+
+    input#login, input#senha{
+        height: 30px;
+        border-radius: 10px;
+        border-style: groove;
+        border-color: red;
+    }
+
+    input#entrar, input#esqueci{
+        border-bottom: 15px;
+    }
 
     
 
@@ -26,17 +68,145 @@ Grandes telas: 1920 px - 4k
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     /* NOTEBOOK/LAPTOP */
 
+    body{
+        background-image: linear-gradient(to bottom,  #FFE4C4, #e5b680);
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+
+        width: 1050px;
+        height: 350px;
+    }
+
+    div#img{
+        order: 1;
+        width: 450px;
+        height: 350px;
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+
+    div#secLogin{
+        order: 2;
+        width: 653px;
+        height: 350px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    input#entrar, input#esqueci, input#login, input#senha{
+        width: 560px;
+        
+    }
+
+    input#login, input#senha{
+        height: 30px;
+        border-radius: 10px;
+        border-style: groove;
+        border-color: red;
+    }
+
+    input#entrar, input#esqueci{
+        border-bottom: 15px;
+    }
+
+    
+
+
     
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
     /* DESKTOP PC */
+
+    body{
+        background-image: linear-gradient(to bottom,  #FFE4C4, #e5b680);
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+
+        width: 1400px;
+        height: 350px;
+    }
+
+    div#img{
+        order: 1;
+        width: 450px;
+        height: 350px;
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+
+    div#secLogin{
+        order: 2;
+        width: 950px;
+        height: 350px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    input#entrar, input#esqueci, input#login, input#senha{
+        width: 700px;
+        
+    }
+
+    input#login, input#senha{
+        height: 30px;
+        border-radius: 10px;
+        border-style: groove;
+        border-color: red;
+    }
+
+    input#entrar, input#esqueci{
+        border-bottom: 15px;
+    }
     
 
 }
 
 @media screen and (min-width: 1921px) {
     /* TV/ TELAS GRANDES */
+
+    main{
+        display: flex;
+        flex-direction: row;
+
+        width: 1400px;
+        height: 350px;
+    }
+
+    div#img{
+        order: 1;
+        width: 450px;
+        height: 350px;
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+
+    div#secLogin{
+        order: 2;
+        width: 950px;
+        height: 350px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    input#entrar, input#esqueci, input#login, input#senha{
+        width: 700px;
+        
+    }
+
+    input#login, input#senha{
+        height: 30px;
+        border-radius: 10px;
+        border-style: groove;
+        border-color: red;
+    }
+
+    input#entrar, input#esqueci{
+        border-bottom: 15px;
+    }
     
 
 }
