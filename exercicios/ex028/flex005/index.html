@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: orange;
+
+        }
+
+        main{
+            background-color: crimson;
+
+            display: flex;
+            flex-flow: row nowrap;
+
+            /* Meio contraintuitivo mas para justificar o elemento filho no centro, as configs de posicionamento devem ir no elemento pai (até que faz sentido na verdade, uma vez que eu tô centralizando o elemento filho no centro do elemento pai) */
+            align-items: center;
+            justify-content: center;
+
+            height: 600px;
+            width: 100vw;
+        }
+
+        section{
+            background-color: green;
+
+            width: 300px;
+            height: 300px;
+
+            align-items: center;
+
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>
+                Tela de login
+            </h1>
+        </section>
+    </main>
+    
+    
+</body>
+</html>
