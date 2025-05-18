@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex teste</title>
+    <style>
+        div#pai{
+            /* Para o Container Pai, a principal coisa é colocar o "display: flex;" nele */
+            background-color: blueviolet;
+            
+            
+            display: flex;
+
+            /* No fluxo você sempre seleciona direção e o tipo de empacotamento dele */
+            flex-flow: row wrap;
+
+            height: 400px;
+            align-content: space-evenly;
+        }
+
+        div.item{
+            /* Para os itens (filho), a principal coisa é colocar o "flex: auto;" pra ele ficar fluído, lembrando do exemplo da água, que assume o formato do recipiente em que estiver */
+
+            background-color: crimson;
+
+            border: 1px solid black;
+            padding: 15px;
+            
+            padding: 50px;
+            
+            
+
+            color: aliceblue;
+            text-align: center;
+        }
+
+        div#i1{
+            order: 9;
+        }
+
+        div#i4{
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
+    </div>
+    
+</body>
+</html>

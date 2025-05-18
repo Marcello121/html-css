@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: grey;
+}
+
+menu h1{
+    padding-left: 0px;
+    padding: 10px;
+    color: white;
+    text-shadow: 3px 3px black;
+
+    
+    
+
+
+
+}
+
+
+h1{
+    flex: none;
+
+    justify-self: flex-start;
+    
+}
+
+
+menu{
+    display: flex;
+    /* flex-flow, justify-content e align-items ficam no container pai (acho rs) */
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+    
+    
+    
+    
+}
+
+div#zero{
+    display: flex;
+    justify-content: flex-start;
+
+    margin-right: 50px;
+
+    
+
+}
+
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+    
+    
+
+    
+}
+
+
+
+
+
+a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+
+    flex: 0 1 70px;
+
+    text-decoration: none;
+    
+
+
+    
+    
+
+    
+   
+}
+
+
+
+a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+div#content{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+article{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    height: auto;
+    width: 80vw;
+    margin: 15px;
+
+    box-shadow: 2px 5px black;
+
+}
+
+article h2{
+    text-align: center;
+}
+
+article p{
+    padding: 10px;
+}

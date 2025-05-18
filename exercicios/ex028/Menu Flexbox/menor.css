@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+
+    
+
+    menu{
+        
+        flex-flow: column nowrap;
+
+        text-align: center;
+        
+    }
+
+   
+
+    h1{
+        /* Não entendi, não entendi nada. estou fazem uns bons minutos tentando centralizar esse h1 e por algum motivo só consegui quando coloquei text-align: center; no menu e flex: auto; nele.
+        Nem sei qual a relação que esses dois tem mas funcionou 👍 */
+        flex: auto;
+        
+    }
+
+    div#zero{
+        margin-right: 0px;
+    }
+
+   
+    
+
+    nav{
+        
+        flex-flow: column nowrap;
+        text-align: center;
+        
+        
+
+        
+        
+    }
+
+    a{
+        flex: auto;
+        
+        
+    }
+
+    
+
+
+
+
+}

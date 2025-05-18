@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex teste</title>
+    <style>
+        div#pai{
+            /* Para o Container Pai, a principal coisa é colocar o "display: flex;" nele */
+            background-color: rgb(27, 42, 255);
+            
+            
+            display: flex;
+
+            /* wrap é a quebra, quando você seta nowrap ele NÃO vai quebrar mesmo se você redimensaionar a tela, se setar wrap ele VAI quebrar assim que a tela chegar em um certo limite */
+            flex-flow: row nowrap;
+            
+            
+            height: 100px;
+            
+        }
+
+        div.item{
+            /* Para os itens (filho), a principal coisa é colocar o "flex: auto;" pra ele ficar fluído, lembrando do exemplo da água, que assume o formato do recipiente em que estiver */
+
+            background-color: crimson;
+
+            border: 1px solid black;
+            padding: 15px;
+            
+            
+            
+            
+
+            color: aliceblue;
+            text-align: center;
+
+            /* flex-shrink e flex-grow são na parte de estilo dos itens e não do container pai */
+            flex-shrink: 0;
+
+            flex-basis: 150px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        
+    </div>
+    
+</body>
+</html>
