@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-family: sans-serif;
+}
+
+body{
+    width: auto;
+    height: 100vh;
+
+    line-height: 1.5em;
+}
+
+
+
+header > h1{
+    padding: 15px;
+}
+
+header > p{
+    padding: 10px;
+}
+
+
+
+
+
+
+article#a1{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-start;
+    flex: none;
+
+    background-color: lightgrey;
+
+    
+
+    
+    margin-top: 20px;
+    
+
+    background-color: rgba(128, 128, 128, 0.329);
+
+
+}
+
+div#texto{
+    order: 0;
+    flex: 1 1 400px;
+
+    margin: 10px;
+
+    
+}
+
+div > h1, p{
+    padding: 10px;
+}
+
+article#a2{
+    
+    display: flex;
+    flex-flow: row wrap;
+    flex: none;
+    justify-content: flex-start;
+
+
+    background-color: rgba(128, 128, 128, 0.329);
+
+   
+}
+
+div#texto2{
+    order: 0;
+    flex: 1 1 400px;
+
+    margin: 10px;
+    
+    
+}
+
+div#img{
+    display: block;
+    margin: auto;
+    
+}
+
+img{
+    margin: 15px;
+    width: 450px;
+    height: 480px;
+
+    border-radius: 10px;
+    
+
+    
+
+    
+
+    
+
+    
+}
+
+div#video{
+    margin: 15px;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+iframe{
+    border-radius: 10px;
+    
+
+    display: block;
+    margin: auto;
+    
+}
+
+article#a3{
+    background-color: darkgrey;
+    height: 200px;
+}
+
+article#a3 > h1, p{
+    margin: 10px;
+    padding: 10px;
+
+    
+}

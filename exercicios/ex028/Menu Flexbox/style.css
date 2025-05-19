@@ -16,62 +16,41 @@ header{
     background-color: grey;
 }
 
-menu h1{
+menu > h1{
     padding-left: 0px;
     padding: 10px;
     color: white;
     text-shadow: 3px 3px black;
 
-    
-    
+    flex-basis: 300px;
 
+    
+    
 
 
 }
 
-
-h1{
-    flex: none;
-
-    justify-self: flex-start;
-    
-}
 
 
 menu{
     display: flex;
     /* flex-flow, justify-content e align-items ficam no container pai (acho rs) */
-    justify-content: space-between;
+    
     flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     
     
     
     
     
-}
-
-div#zero{
-    display: flex;
-    justify-content: flex-start;
-
-    margin-right: 50px;
-
-    
-
 }
 
 nav{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-
-    
-    
 
     
 }
-
-
 
 
 
@@ -80,15 +59,11 @@ a{
     border-radius: 10px;
     background-color: black;
     color: white;
-    margin: 10px;
+    margin: 5px;
 
-    flex: 0 1 70px;
+    
 
     text-decoration: none;
-    
-
-
-    
     
 
     
@@ -101,6 +76,9 @@ a:hover{
     cursor: pointer;
     background-color: white;
     color: black;
+
+    /* Não sabia que existia isso mas é bem legal */
+    transition: background-color .3s;
 }
 
 div#content{

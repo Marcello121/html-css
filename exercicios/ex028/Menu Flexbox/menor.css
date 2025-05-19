@@ -14,41 +14,35 @@
         flex-flow: column nowrap;
 
         text-align: center;
+
+        
         
     }
 
    
-
-    h1{
-        /* Não entendi, não entendi nada. estou fazem uns bons minutos tentando centralizar esse h1 e por algum motivo só consegui quando coloquei text-align: center; no menu e flex: auto; nele.
-        Nem sei qual a relação que esses dois tem mas funcionou 👍 */
-        flex: auto;
+    menu > h1{
+        flex-basis: 30px;
+        
+       
         
     }
-
-    div#zero{
-        margin-right: 0px;
-    }
-
    
-    
 
     nav{
+        display: flex;
         
         flex-flow: column nowrap;
+        align-items: center;
         text-align: center;
-        
-        
-
-        
         
     }
 
     a{
-        flex: auto;
-        
+        width: 90vw;
         
     }
+
+    
 
     
 
